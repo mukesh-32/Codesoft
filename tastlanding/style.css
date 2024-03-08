@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Your existing styles here */
+
+.main-section {
+    background: url('images/image.png') center/cover no-repeat;
+    background-color: rgba(255, 255, 255, 0.462);
+    padding: 40px 20px; /* Add padding to maintain readability */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.login-btn {
+    background-color: #00c3ff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+.pricing-section {
+    text-align: center;
+}
+
+.pricing-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    color: #333;
+}
+
+.price {
+    color: #ffcc00;
+    font-size: 24px;
+    margin-top: 10px;
+}
